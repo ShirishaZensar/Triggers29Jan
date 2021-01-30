@@ -60,3 +60,5 @@ WHERE ProductId > 12
 UPDATE ProductDetail
 SET Setqty = 10
 WHERE MarginCode = 'A' AND Setqty=1
+
+INSERT INTO ProductDetail VALUES('Eclaiers', 5, 46.37,'C')
